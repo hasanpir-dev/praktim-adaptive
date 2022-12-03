@@ -1,53 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
 
-body {
+* {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cmarginleft: 124px;
+    --ccmarginright: 190px;
+
 }
 .container {
     background-color: #31b44e;
-
-    font-family: Roboto sans-serif;
+    font-family: Roboto;
     font-style: normal;
     color: #000000;
-    padding-left: 124px;
+    margin-left: var(--cmarginleft);
     display: flex;
-
-   
-
-
-    
-    
+    justify-content: space-between;
 }
 
 
 main {
 
-    max-width: 1440px;
-    max-height: 1046px;
+    width: 1440px;
+    height: 1046px;
    background-color: aqua;
+   padding-left: 125px;
+   padding-right: 125px;
   
 }
 
 .content {
-    max-width: 662px;
-    max-height: 374px;
+    font-family: Roboto;
     background-color: burlywood;
-
+margin-right: 190px;
+ font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+width: 662px;
   
 }
 
 .image {
-    padding-left: 150px;
-    width: 100%;
+    width: 314px;
+   
+
 }
 h1 {
-    font-family: Roboto Slab sans-serif;
+    font-family: Roboto Slab;
     font-weight: 700;
     font-size: 55px;
-    padding-left: 124px;
-    padding-top: 91px;
+    padding-top: 90px;
+margin-bottom: 50px;
 
 
   
@@ -56,33 +64,151 @@ h1 {
 .content p {
     font-weight: 400;
     font-size: 24px;
-    font-family: Roboto sans-serif;
+    font-family: Roboto;
    
 }
 
 .footer h2{
-    font-weight: 700;
-    font-size: 25px;
-    font-family: Roboto sans-serif;
+   
+    font-family: Roboto;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 130%;
     width: 150px;
+    height: 40px;
     
 }
 
 .p2 {
-    font-weight: 400;
-    font-size: 18px;
-    font-family: Roboto sans-serif;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
     width: 150px;
+    height: 40px;
+    margin-right: 95px;
+    background-color: red;
 }
 
 .footer {
-    padding-left: 124px;
+    margin-left: 124px;
     display: flex;
-    padding-bottom: 173px;
     background-color: bisque;
     align-items: center;
-    justify-content: space-between;
-    margin: auto;
+    margin-top: 72px;
+padding-bottom: 172px;
+
     
 }
 
+.footerin {
+    display: flex;
+}
+
+.footer div:first-child {
+margin-right: 132px;
+}
+
+@media only screen and (max-width: 830px) {
+    .container {
+        background-color: #31b44e;
+        font-family: Roboto;
+        font-style: normal;
+        color: #000000;
+        margin-left: 72px;
+        display: flex;
+    
+        
+        
+    }
+    
+    
+    main {
+    
+        width: 834px;
+        height: 633px;
+    
+      
+    }
+    
+    .content {
+        font-family: Roboto;
+        background-color: burlywood;
+    margin-right: 72px;
+     font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    width: 384px;
+      
+    }
+    
+    .image {
+        width: 182px;
+        margin-right: 86px;
+    
+    }
+    h1 {
+        font-family: Roboto Slab;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 32px;
+        margin-left: 72px;
+        padding-top: 56px;
+    margin-bottom: 28px;
+    
+    
+      
+    }
+    
+    .content p {
+        font-weight: 400;
+        font-size: 14px;
+        font-style: normal;
+        font-family: Roboto;
+       
+    }
+    
+    .footer h2{
+       
+        font-family: Roboto;
+       font-style: normal;
+       font-weight: 700;
+       font-size: 15px;
+       line-height: 130%;
+        width: 86px;
+        height: 22px;
+        
+    }
+    
+    .p2 {
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+        width: 150px;
+        margin-right: 31px;
+        background-color: red;
+    }
+    
+    .footer {
+        margin-left: 72px;
+        display: flex;
+        background-color: bisque;
+        align-items: center;
+        margin-top: 56px;
+    margin-bottom: 180px;
+    
+        
+    }
+    
+    .footer div:first-child {
+    display: none;
+    }
+    
+   
+
+}
