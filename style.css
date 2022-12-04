@@ -55,6 +55,7 @@ img {
 
 main {
     max-width: 1440px;
+    max-height: 1046px;
     margin: 0 auto;
 
     
@@ -97,6 +98,7 @@ main h1 {
     padding-left: 125px;
     padding-bottom: 170px;
     margin: auto;
+    padding-top: 75px;
     
 }
 
@@ -127,6 +129,7 @@ main h1 {
     
     main {
         max-width: 834px;
+        max-height: 634px;
         margin: 0;
        
         
@@ -169,7 +172,7 @@ main h1 {
     .footer {
         padding-left: 72px;
         padding-bottom: 170px;
-        padding-top: 65px;
+        padding-top: 55px;
 
 
     }
@@ -205,7 +208,9 @@ main h1 {
     
     
     main {
-        max-width: 308x;
+        max-width: 308px;
+        max-width: 776px;
+
        
     }
     
@@ -246,7 +251,7 @@ main h1 {
     .footer {
         padding-left: 35px;
         padding-bottom: 110px;
-        padding-top: 15px;
+        padding-top: 25px;
 
 
     }
