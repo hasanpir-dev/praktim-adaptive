@@ -5,83 +5,97 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+.column {
+    background-color: blueviolet;
+}
+.pw {
+    max-width: 650px;
+}
+
+.flex-fill {
+    flex: 1 0 0;
+}
+
+.items-center {
+    align-items: center;
+}
+/* footer margin*/
+.fmr {
+    margin-right: 90px;
+
+}
+
+.ffmr {
+    margin-right: 130px;
+}
+
 .container {
     background-color: #31b44e;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 125px;
+    padding-right: 125px;
+}
 
-    font-family: Roboto sans-serif;
-    font-style: normal;
-    color: #000000;
-    padding-left: 124px;
+.row {
+    background-color: aqua;
     display: flex;
+    flex-wrap: wrap;
 
-   
-
-
-    
-    
 }
 
 
 main {
-
     max-width: 1440px;
-    max-height: 1046px;
-   background-color: aqua;
-  
+    margin: 0 auto;
+    background-color: aqua;
+
 }
 
-.content {
-    max-width: 662px;
-    max-height: 374px;
-    background-color: burlywood;
-
-  
-}
-
-.image {
-    padding-left: 150px;
-    width: 100%;
-}
-h1 {
-    font-family: Roboto Slab sans-serif;
+main h1 {
+    font-family: Roboto;
     font-weight: 700;
     font-size: 55px;
-    padding-left: 124px;
-    padding-top: 91px;
-
+    padding-left: 125px;
+    padding-top: 90px;
 
   
 }
 
-.content p {
+.column p {
     font-weight: 400;
     font-size: 24px;
-    font-family: Roboto sans-serif;
+    font-family: Roboto;
    
 }
 
-.footer h2{
+.footer h2 {
     font-weight: 700;
     font-size: 25px;
-    font-family: Roboto sans-serif;
-    width: 150px;
+    font-family: Roboto;
     
 }
 
 .p2 {
     font-weight: 400;
     font-size: 18px;
-    font-family: Roboto sans-serif;
-    width: 150px;
+    font-family: Roboto;
+    max-width: 150px;
 }
 
 .footer {
-    padding-left: 124px;
-    display: flex;
-    padding-bottom: 173px;
+    padding-left: 125px;
+    padding-bottom: 170px;
     background-color: bisque;
-    align-items: center;
-    justify-content: space-between;
     margin: auto;
     
 }
