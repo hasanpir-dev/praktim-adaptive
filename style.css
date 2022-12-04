@@ -43,6 +43,7 @@ img {
     margin: 0 auto;
     padding-left: 125px;
     padding-right: 125px;
+    padding-top: 45px;
 }
 
 .row {
@@ -68,6 +69,7 @@ main h1 {
     font-size: 55px;
     padding-left: 125px;
     padding-top: 90px;
+    margin: 0;
 
   
 }
